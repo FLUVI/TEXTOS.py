@@ -1,3 +1,4 @@
+import os
 
 def repetir(a):
       palabra = str(input('Que palabra quieres poner?? '))
@@ -51,7 +52,6 @@ def minus(a):
 
 print('Bienvenido al generador de textos!!')
 input('Presiona enter')
-clear
 print('Elige que tipo de texto quieres generar')
 print('-Repetidor de texto: [1]')
 print('-Cosas random: [2]')
